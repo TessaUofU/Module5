@@ -1,3 +1,7 @@
+#Kaitlyn Stevens u1025471
+#Question 3
+
+
 def func_three(list_three, i):
     if i < len(list_three) and i >0:
         print(list_three[i] - 1)
