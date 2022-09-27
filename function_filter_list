@@ -1,10 +1,13 @@
 #Kaitlyn Stevens u1025471
 #Question 3
 
+def func_three(list_three, y):
+    final_list = []
+    for i in range(0,len(list_three)):
+        if i < y:
+            final_list.append(list_three[i])
+    return final_list
 
-def func_three(list_three, i):
-    if i < len(list_three) and i >0:
-        print(list_three[i] - 1)
-        func_three(list_three, i - 1)
-        
-func_three([1,2,3,4,5,6,7,8,9], 6)
+
+
+print(func_three([1, 2, 3, 4, 5, 6, 7, 8, 9], 6))
