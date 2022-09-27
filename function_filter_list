@@ -2,7 +2,7 @@
 #Question 3
 #Each person in the group programmed one question, then looked over the others to make sure they made sense
 
-def func_three(list_three, y): #y is the argument you give
+def func_three(list_three, y): #list_three is the list you give and y is the argument you give
     final_list = [] #since the answer needs to be in a list, we need to define a list to return
     for i in range(0,len(list_three)):
         if i < y:
